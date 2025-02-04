@@ -20,7 +20,7 @@ fetch('/api/locations')
         viewer.entities.add({
             position: Cesium.Cartesian3.fromDegrees(herLocation.lon, herLocation.lat),
             point: { pixelSize: 10, color: Cesium.Color.BLUE },
-            label: { text: 'Her (San Francisco)', font: '14px sans-serif', fillColor: Cesium.Color.WHITE }
+            label: { text: 'Chhavi (San Francisco)', font: '14px sans-serif', fillColor: Cesium.Color.WHITE }
         });
 
         // Fly to a view that includes both locations
